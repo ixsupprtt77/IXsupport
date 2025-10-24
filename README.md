@@ -33,10 +33,10 @@ This project is built with modern web technologies:
 
 ```sh
 # Step 1: Clone the repository
-git clone https://github.com/ixsupprtt77/IXsupport.git
+git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory
-cd IXsupport
+cd independent-ix-support-main
 
 # Step 3: Install dependencies
 npm install
@@ -76,12 +76,6 @@ The website is fully responsive and optimized for:
 - Global styles: `src/index.css`
 - Tailwind configuration: `tailwind.config.ts`
 - Theme colors can be customized in the Tailwind config
-
-## 🚀 Deployment
-
-This website is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
-
-**Live Website:** https://ixsupports.com/
 
 ## 📄 License
 
