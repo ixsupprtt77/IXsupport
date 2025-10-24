@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
@@ -31,9 +31,9 @@ const AppContent = () => {
 };
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <AppContent />
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
