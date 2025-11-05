@@ -223,24 +223,24 @@ const Contact = () => {
               <div className="grid gap-6">
                 
                 {/* Phone Contact */}
-                <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:scale-105 hover:shadow-2xl transition-all duration-500">
+                <a href="tel:+18883159311" className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:scale-105 hover:shadow-2xl transition-all duration-500 block">
                   <div className="flex items-center gap-4">
                     <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform duration-500">
                       <Phone className="text-white" size={24} />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">Emergency Hotline</h3>
+                      <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">Call Us Now</h3>
                       <p className="text-gray-600">24/7 immediate support</p>
-                      <p className="text-lg font-semibold text-green-600 mt-1">1-800-TECH-911</p>
+                      <p className="text-lg font-semibold text-green-600 mt-1">(888) 315-9311</p>
                     </div>
                   </div>
                   <div className="mt-4 text-sm text-gray-500">
                     For urgent technical emergencies requiring immediate assistance
                   </div>
-                </div>
+                </a>
 
                 {/* Email Contact */}
-                <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:scale-105 hover:shadow-2xl transition-all duration-500">
+                <a href="mailto:support@ixsupport.com" className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:scale-105 hover:shadow-2xl transition-all duration-500 block">
                   <div className="flex items-center gap-4">
                     <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl flex items-center justify-center group-hover:-rotate-12 transition-transform duration-500">
                       <Mail className="text-white" size={24} />
@@ -248,13 +248,13 @@ const Contact = () => {
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Email Support</h3>
                       <p className="text-gray-600">Professional assistance</p>
-                      <p className="text-lg font-semibold text-blue-600 mt-1">support@techrescue.com</p>
+                      <p className="text-lg font-semibold text-blue-600 mt-1">support@ixsupport.com</p>
                     </div>
                   </div>
                   <div className="mt-4 text-sm text-gray-500">
                     Detailed technical support with step-by-step guidance
                   </div>
-                </div>
+                </a>
               </div>
 
               {/* Service Features */}

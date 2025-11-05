@@ -53,15 +53,19 @@ const Header = () => {
 
           {/* CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <SimpleButton variant="outline" size="sm" className="hover:scale-110 hover:rotate-1 transition-all duration-300">
-              Book Repair
-            </SimpleButton>
-            <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 hover:scale-110 hover:-rotate-1 transition-all duration-300 group">
-              <span className="flex items-center gap-2">
-                Start Remote Support
-                <div className="w-2 h-2 bg-white rounded-full animate-pulse group-hover:animate-bounce" />
-              </span>
-            </SimpleButton>
+            <a href="tel:+18883159311">
+              <SimpleButton variant="outline" size="sm" className="hover:scale-110 hover:rotate-1 transition-all duration-300">
+                📞 (888) 315-9311
+              </SimpleButton>
+            </a>
+            <a href="tel:+18883159311">
+              <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 hover:scale-110 hover:-rotate-1 transition-all duration-300 group">
+                <span className="flex items-center gap-2">
+                  Call Now
+                  <div className="w-2 h-2 bg-white rounded-full animate-pulse group-hover:animate-bounce" />
+                </span>
+              </SimpleButton>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -87,12 +91,16 @@ const Header = () => {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-2">
-              <SimpleButton variant="outline" size="sm">
-                Book Repair
-              </SimpleButton>
-              <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600">
-                Start Remote Support
-              </SimpleButton>
+              <a href="tel:+18883159311" className="w-full">
+                <SimpleButton variant="outline" size="sm" className="w-full">
+                  📞 (888) 315-9311
+                </SimpleButton>
+              </a>
+              <a href="tel:+18883159311" className="w-full">
+                <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 w-full">
+                  Call Now
+                </SimpleButton>
+              </a>
             </div>
           </div>
         )}

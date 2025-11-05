@@ -229,9 +229,9 @@ const Terms = () => {
                     <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
                       <p className="text-sm"><strong>Email:</strong> legal@ixsupport.com</p>
                     </div>
-                    <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
-                      <p className="text-sm"><strong>Phone:</strong> 1-800-IX-SUPPORT</p>
-                    </div>
+                    <a href="tel:+18883159311" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
+                      <p className="text-sm"><strong>Phone:</strong> (888) 315-9311</p>
+                    </a>
                   </div>
                 </div>
               </div>

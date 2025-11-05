@@ -155,7 +155,7 @@ const RefundPolicy = () => {
                         <p className="text-orange-800 mb-3">Reach out via phone, email, or our contact form. Explain your concern and provide your service details.</p>
                         <div className="bg-orange-100 p-3 rounded-lg">
                           <p className="text-sm text-orange-700">
-                            📞 <strong>Phone:</strong> 1-800-IX-SUPPORT <br />
+                            📞 <strong>Phone:</strong> <a href="tel:+18883159311" className="hover:underline">(888) 315-9311</a> <br />
                             📧 <strong>Email:</strong> refunds@ixsupport.com
                           </p>
                         </div>

@@ -51,9 +51,11 @@ const RemoteSupportBanner = () => {
               </div>
             </div>
 
-            <SimpleButton size="lg" variant="secondary" className="shadow-lg">
-              Start Remote Session
-            </SimpleButton>
+            <a href="tel:+18883159311">
+              <SimpleButton size="lg" variant="secondary" className="shadow-lg">
+                📞 Call (888) 315-9311 Now
+              </SimpleButton>
+            </a>
           </div>
         </div>
       </div>

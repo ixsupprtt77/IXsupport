@@ -149,15 +149,17 @@ const Hero = () => {
                 isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                  <SimpleButton 
-                    size="lg" 
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 group w-full sm:w-auto"
-                  >
-                    <span className="flex items-center justify-center gap-2 sm:gap-3">
-                      Get Instant Help
-                      <div className="w-2 h-2 bg-white rounded-full animate-bounce group-hover:animate-ping" />
-                    </span>
-                  </SimpleButton>
+                  <a href="tel:+18883159311" className="w-full sm:w-auto">
+                    <SimpleButton 
+                      size="lg" 
+                      className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 group w-full"
+                    >
+                      <span className="flex items-center justify-center gap-2 sm:gap-3">
+                        📞 Call (888) 315-9311
+                        <div className="w-2 h-2 bg-white rounded-full animate-bounce group-hover:animate-ping" />
+                      </span>
+                    </SimpleButton>
+                  </a>
                   
                   <SimpleButton 
                     size="lg" 

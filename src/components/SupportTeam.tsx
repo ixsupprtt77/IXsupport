@@ -4,9 +4,9 @@ import { MessageCircle, Phone, Mail } from "./SimpleIcons";
 import SimpleButton from "./SimpleButton";
 
 const contactMethods = [
-  { icon: Phone, label: "Call Us", value: "1-800-IX-SUPPORT", color: "text-primary" },
-  { icon: Mail, label: "Email Us", value: "support@ixsupport.com", color: "text-secondary" },
-  { icon: MessageCircle, label: "Live Chat", value: "Available 24/7", color: "text-primary" }
+  { icon: Phone, label: "Call Us", value: "(888) 315-9311", href: "tel:+18883159311", color: "text-primary" },
+  { icon: Mail, label: "Email Us", value: "support@ixsupport.com", href: "mailto:support@ixsupport.com", color: "text-secondary" },
+  { icon: MessageCircle, label: "Live Chat", value: "Available 24/7", href: "#", color: "text-primary" }
 ];
 
 const SupportTeam = () => {
@@ -38,8 +38,9 @@ const SupportTeam = () => {
 
             <div className="space-y-6 mb-8">
               {contactMethods.map((method, index) => (
-                <div
+                <a
                   key={index}
+                  href={method.href}
                   className="flex items-center gap-4 p-4 bg-card rounded-xl border border-border hover:border-primary/50 transition-all cursor-pointer group hover:translate-x-2 support-team-method"
                   style={{ animationDelay: `${0.3 + index * 0.1}s` }}
                 >
@@ -50,17 +51,19 @@ const SupportTeam = () => {
                     <div className="text-sm text-muted-foreground">{method.label}</div>
                     <div className="font-semibold group-hover:text-primary transition-colors">{method.value}</div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
 
             <div className="support-team-button">
-              <SimpleButton 
-                size="lg" 
-                className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 shadow-lg text-white"
-              >
-                Get in Touch
-              </SimpleButton>
+              <a href="tel:+18883159311">
+                <SimpleButton 
+                  size="lg" 
+                  className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 shadow-lg text-white"
+                >
+                  📞 Call (888) 315-9311
+                </SimpleButton>
+              </a>
             </div>
           </div>
 
