@@ -231,7 +231,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">Call Us Now</h3>
                       <p className="text-gray-600">24/7 immediate support</p>
-                      <p className="text-lg font-semibold text-green-600 mt-1">(888) 315-9311</p>
+                      <p className="text-lg font-semibold text-green-600 mt-1">(888) 361-6963</p>
                     </div>
                   </div>
                   <div className="mt-4 text-sm text-gray-500">

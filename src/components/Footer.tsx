@@ -77,11 +77,11 @@ const Footer = () => {
                 </div>
                 <span>support@ixsupport.com</span>
               </div>
-              <a href="tel:+18883159311" className="flex items-center gap-3 hover:text-green-400 transition-colors duration-300 group">
+              <a href="tel:+18883616963" className="flex items-center gap-3 hover:text-green-400 transition-colors duration-300 group">
                 <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone size={16} />
                 </div>
-                <span>(888) 315-9311</span>
+                <span>(888) 361-6963</span>
               </a>
               <div className="flex items-center gap-3 hover:text-purple-400 transition-colors duration-300 group">
                 <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">

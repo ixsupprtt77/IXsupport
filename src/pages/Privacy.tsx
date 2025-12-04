@@ -198,8 +198,8 @@ const Privacy = () => {
                     <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
                       <p className="text-sm"><strong>Email:</strong> privacy@ixsupport.com</p>
                     </div>
-                    <a href="tel:+18883159311" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
-                      <p className="text-sm"><strong>Phone:</strong> (888) 315-9311</p>
+                    <a href="tel:+18883616963" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
+                      <p className="text-sm"><strong>Phone:</strong> (888) 361-6963</p>
                     </a>
                   </div>
                 </div>

@@ -53,12 +53,12 @@ const Header = () => {
 
           {/* CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="tel:+18883159311">
+            <a href="tel:+18883616963">
               <SimpleButton variant="outline" size="sm" className="hover:scale-110 hover:rotate-1 transition-all duration-300">
-                📞 (888) 315-9311
+                📞 (888) 361-6963
               </SimpleButton>
             </a>
-            <a href="tel:+18883159311">
+            <a href="tel:+18883616963">
               <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 hover:scale-110 hover:-rotate-1 transition-all duration-300 group">
                 <span className="flex items-center gap-2">
                   Call Now
@@ -91,12 +91,12 @@ const Header = () => {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-2">
-              <a href="tel:+18883159311" className="w-full">
+              <a href="tel:+18883616963" className="w-full">
                 <SimpleButton variant="outline" size="sm" className="w-full">
-                  📞 (888) 315-9311
+                  📞 (888) 361-6963
                 </SimpleButton>
               </a>
-              <a href="tel:+18883159311" className="w-full">
+              <a href="tel:+18883616963" className="w-full">
                 <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 w-full">
                   Call Now
                 </SimpleButton>
