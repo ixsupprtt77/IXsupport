@@ -74,9 +74,9 @@ const Terms = () => {
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-green-500">1. Service Scope</h2>
                   <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
                     <p className="text-green-800 leading-relaxed">
-                      🔧 IX Support provides independent device repair, remote technical support, data recovery, 
-                      and related services. We are not affiliated with any device manufacturer. All services 
-                      are provided "as is" with no guarantees beyond our stated warranty.
+                      🔧 Cosmo Broad provides independent third-party assistance, guidance, and support for telecommunications services. 
+                      We assist customers by helping them find, understand, and manage internet, TV, and phone services. We are not 
+                      affiliated with any telecommunications provider and do not directly provide internet, TV, or phone services.
                     </p>
                   </div>
                 </section>
@@ -102,14 +102,14 @@ const Terms = () => {
 
                 <section className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-purple-500">3. Customer Responsibilities</h2>
-                  <p className="text-gray-700 mb-4">You agree to:</p>
+                  <p className="text-gray-700 mb-4">When using our assistance services, you agree to:</p>
                   <div className="grid md:grid-cols-2 gap-4">
                     {[
-                      { icon: "💾", text: "Backup your data before service (we are not responsible for data loss)" },
-                      { icon: "🔓", text: "Remove passwords, locks, and Find My Device features before drop-off" },
-                      { icon: "📝", text: "Provide accurate information about device issues and history" },
-                      { icon: "📅", text: "Pick up repaired devices within 30 days (storage fees may apply after)" },
-                      { icon: "💳", text: "Pay in full before device release unless alternative arrangements are made" }
+                      { icon: "📝", text: "Provide accurate information about your service needs and preferences" },
+                      { icon: "📞", text: "Respond to provider contacts in a timely manner" },
+                      { icon: "💳", text: "Pay our service assistance fees as agreed before facilitation" },
+                      { icon: "🔍", text: "Review and verify provider details independently before committing" },
+                      { icon: "✅", text: "Understand that final service terms are between you and the provider" }
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-4 bg-purple-50 rounded-xl border border-purple-200">
                         <span className="text-2xl">{item.icon}</span>
@@ -120,20 +120,21 @@ const Terms = () => {
                 </section>
 
                 <section className="mb-10">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-orange-500">4. Warranty & Limitations</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-orange-500">4. Service Guarantees & Limitations</h2>
                   <div className="bg-orange-50 p-6 rounded-xl border border-orange-200 mb-6">
                     <p className="text-orange-800 font-semibold mb-4">
-                      🛡️ We provide a 90-day warranty on parts and labor for the specific repair performed.
+                      ℹ️ Our assistance services help guide you to appropriate telecommunications providers. We make reasonable 
+                      efforts to provide accurate information but cannot guarantee specific outcomes.
                     </p>
-                    <p className="text-orange-700">Warranty does not cover:</p>
+                    <p className="text-orange-700">Our services do not include guarantees for:</p>
                   </div>
                   <div className="space-y-3">
                     {[
-                      "Physical damage, liquid damage, or misuse after repair",
-                      "Software updates or modifications not performed by us",
-                      "Third-party repairs or tampering after service",
-                      "Normal wear and tear or cosmetic issues",
-                      "Issues unrelated to the original repair"
+                      "Provider approval of your service application",
+                      "Specific pricing, speeds, or availability at your location",
+                      "Installation quality or technical performance of provider services",
+                      "Customer service quality provided by telecommunications companies",
+                      "Changes to provider plans, pricing, or terms after initial setup"
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-3 bg-red-50 rounded-lg border border-red-200">
                         <div className="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -174,10 +175,11 @@ const Terms = () => {
                       <div className="text-4xl mb-4">⚠️</div>
                       <p className="text-yellow-900 font-bold text-lg mb-4">IMPORTANT INDEPENDENCE NOTICE</p>
                       <p className="text-yellow-800 leading-relaxed">
-                        IX Support is an independent repair and support provider. 
-                        We are <strong>NOT affiliated with, endorsed by, or sponsored by</strong> Apple, Samsung, Google, Microsoft, 
-                        or any other device manufacturer. Use of manufacturer names is for descriptive purposes only. 
-                        All trademarks are property of their respective owners.
+                        Cosmo Broad is an independent third-party service provider. 
+                        We are <strong>NOT affiliated with, endorsed by, or sponsored by</strong> any cable, internet, 
+                        television, or streaming service provider. We assist, help, guide, and facilitate customers in 
+                        finding and managing their telecommunications services. Use of provider names is for descriptive 
+                        purposes only. All trademarks® and service marks™ are property of their respective owners.
                       </p>
                     </div>
                   </div>
@@ -229,8 +231,8 @@ const Terms = () => {
                     <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
                       <p className="text-sm"><strong>Email:</strong> legal@ixsupport.com</p>
                     </div>
-                    <a href="tel:+18883616963" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
-                      <p className="text-sm"><strong>Phone:</strong> (888) 361-6963</p>
+                    <a href="tel:+18889296191" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
+                      <p className="text-sm"><strong>Phone:</strong> (888) 929-6191</p>
                     </a>
                   </div>
                 </div>

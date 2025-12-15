@@ -68,10 +68,26 @@ const RefundPolicy = () => {
 
               <div className="prose prose-lg max-w-none">
                 
+                {/* Service Disclaimer */}
+                <section className="mb-10">
+                  <div className="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 border-2 border-yellow-500/30 rounded-2xl p-8">
+                    <div className="text-center">
+                      <div className="text-4xl mb-4">⚠️</div>
+                      <p className="text-yellow-900 font-bold text-lg mb-4">IMPORTANT SERVICE DISCLOSURE</p>
+                      <p className="text-yellow-800 leading-relaxed">
+                        <strong>Cosmo Broad is an independent third-party service provider.</strong> We are not affiliated with, 
+                        endorsed by, or sponsored by any cable, internet, television, or streaming service provider. Our services 
+                        assist, help, guide, and facilitate customers in finding and managing telecommunications services. Service 
+                        fees are separate from any provider billing. All trademarks® and service marks™ are property of their respective owners.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                
                 <section className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-green-500">Our Refund Guarantee</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    At IX Support, we stand behind our work with a comprehensive satisfaction guarantee. If you're not completely satisfied with our service, we'll make it right or provide a full refund.
+                    At Cosmo Broad, we stand behind our assistance services with a comprehensive satisfaction guarantee. If you're not completely satisfied with our third-party service assistance, we'll make it right or provide a full refund.
                   </p>
                   <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
                     <h3 className="text-lg font-bold text-green-900 mb-2">✅ Our Promise to You</h3>
@@ -155,7 +171,7 @@ const RefundPolicy = () => {
                         <p className="text-orange-800 mb-3">Reach out via phone, email, or our contact form. Explain your concern and provide your service details.</p>
                         <div className="bg-orange-100 p-3 rounded-lg">
                           <p className="text-sm text-orange-700">
-                            📞 <strong>Phone:</strong> <a href="tel:+18883616963" className="hover:underline">(888) 361-6963</a> <br />
+                            📞 <strong>Phone:</strong> <a href="tel:+18889296191" className="hover:underline">(888) 929-6191</a> <br />
                             📧 <strong>Email:</strong> refunds@ixsupport.com
                           </p>
                         </div>

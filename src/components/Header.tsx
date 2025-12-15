@@ -15,11 +15,11 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { label: "Services", href: "#services" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Warranty", href: "/warranty" },
+    { label: "About", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Features", href: "/features" },
+    { label: "Pricing", href: "/pricing" },
     { label: "Contact", href: "/contact" },
-    { label: "Track Repair", href: "#track-repair" },
   ];
 
   return (
@@ -34,7 +34,7 @@ const Header = () => {
             href="/"
             className="text-2xl font-bold text-primary hover:scale-105 transition-transform"
           >
-            IX Support
+            Cosmo Broad
           </a>
 
           {/* Desktop Nav */}
@@ -53,12 +53,12 @@ const Header = () => {
 
           {/* CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="tel:+18883616963">
+            <a href="tel:+18889296191">
               <SimpleButton variant="outline" size="sm" className="hover:scale-110 hover:rotate-1 transition-all duration-300">
-                📞 (888) 361-6963
+                📞 (888) 929-6191
               </SimpleButton>
             </a>
-            <a href="tel:+18883616963">
+            <a href="tel:+18889296191">
               <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 hover:scale-110 hover:-rotate-1 transition-all duration-300 group">
                 <span className="flex items-center gap-2">
                   Call Now
@@ -91,12 +91,12 @@ const Header = () => {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-2">
-              <a href="tel:+18883616963" className="w-full">
+              <a href="tel:+18889296191" className="w-full">
                 <SimpleButton variant="outline" size="sm" className="w-full">
-                  📞 (888) 361-6963
+                  📞 (888) 929-6191
                 </SimpleButton>
               </a>
-              <a href="tel:+18883616963" className="w-full">
+              <a href="tel:+18889296191" className="w-full">
                 <SimpleButton size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 w-full">
                   Call Now
                 </SimpleButton>

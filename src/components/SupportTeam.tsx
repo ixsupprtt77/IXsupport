@@ -4,7 +4,7 @@ import { MessageCircle, Phone, Mail } from "./SimpleIcons";
 import SimpleButton from "./SimpleButton";
 
 const contactMethods = [
-  { icon: Phone, label: "Call Us", value: "(888) 361-6963", href: "tel:+18883616963", color: "text-primary" },
+  { icon: Phone, label: "Call Us", value: "(888) 929-6191", href: "tel:+18889296191", color: "text-primary" },
   { icon: Mail, label: "Email Us", value: "support@ixsupport.com", href: "mailto:support@ixsupport.com", color: "text-secondary" },
   { icon: MessageCircle, label: "Live Chat", value: "Available 24/7", href: "#", color: "text-primary" }
 ];
@@ -56,12 +56,12 @@ const SupportTeam = () => {
             </div>
 
             <div className="support-team-button">
-              <a href="tel:+18883616963">
+              <a href="tel:+18889296191">
                 <SimpleButton 
                   size="lg" 
                   className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 shadow-lg text-white"
                 >
-                  📞 Call (888) 361-6963
+                  📞 Call (888) 929-6191
                 </SimpleButton>
               </a>
             </div>

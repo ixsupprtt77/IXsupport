@@ -60,9 +60,24 @@ const Contact = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ready to fix your tech issues? Our certified technicians are standing by to provide 
-              professional support for all your device repair and remote assistance needs.
+              Need assistance finding the perfect internet, TV, or phone service? Our expert team is ready to 
+              guide and assist you with third-party service support and information.
             </p>
+          </div>
+
+          {/* Service Disclaimer */}
+          <div className="max-w-4xl mx-auto mb-12">
+            <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 border-2 border-blue-500/30 rounded-2xl p-6">
+              <div className="text-center">
+                <div className="text-3xl mb-3">ℹ️</div>
+                <p className="text-blue-900 font-bold text-lg mb-2">SERVICE DISCLOSURE</p>
+                <p className="text-blue-800 text-sm leading-relaxed">
+                  <strong>Cosmo Broad is an independent third-party service provider.</strong> We are not affiliated with, 
+                  endorsed by, or sponsored by any telecommunications provider. We assist customers by providing guidance, 
+                  support, and facilitation services. Service fees are separate from provider billing.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Main Content Grid */}
@@ -77,7 +92,7 @@ const Contact = () => {
                   <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center animate-spin" style={{animationDuration: '8s'}}>
                     <Zap className="text-white" size={20} />
                   </div>
-                  Get Instant Support
+                  Get Expert Assistance
                 </h2>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -223,7 +238,7 @@ const Contact = () => {
               <div className="grid gap-6">
                 
                 {/* Phone Contact */}
-                <a href="tel:+18883159311" className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:scale-105 hover:shadow-2xl transition-all duration-500 block">
+                <a href="tel:+18889296191" className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:scale-105 hover:shadow-2xl transition-all duration-500 block">
                   <div className="flex items-center gap-4">
                     <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform duration-500">
                       <Phone className="text-white" size={24} />
@@ -231,7 +246,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">Call Us Now</h3>
                       <p className="text-gray-600">24/7 immediate support</p>
-                      <p className="text-lg font-semibold text-green-600 mt-1">(888) 361-6963</p>
+                      <p className="text-lg font-semibold text-green-600 mt-1">(888) 929-6191</p>
                     </div>
                   </div>
                   <div className="mt-4 text-sm text-gray-500">

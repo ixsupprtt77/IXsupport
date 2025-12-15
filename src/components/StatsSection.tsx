@@ -48,10 +48,10 @@ const StatsSection = () => {
   }, []);
 
   const stats = [
-    { icon: Users, value: 15000, suffix: "+", label: "Happy Customers", color: "text-blue-600" },
-    { icon: TrendingUp, value: 98, suffix: "%", label: "Success Rate", color: "text-green-600" },
-    { icon: Clock, value: 2, suffix: "hrs", label: "Avg Response Time", color: "text-purple-600" },
-    { icon: Award, value: 50, suffix: "+", label: "Expert Technicians", color: "text-orange-600" },
+    { icon: Users, value: 500000, suffix: "+", label: "Customers Helped", color: "text-blue-600" },
+    { icon: TrendingUp, value: 100, suffix: "+", label: "Provider Partners", color: "text-green-600" },
+    { icon: Clock, value: 24, suffix: "/7", label: "Comparison Support", color: "text-purple-600" },
+    { icon: Award, value: 50, suffix: "+", label: "States Covered", color: "text-orange-600" },
   ];
 
   return (

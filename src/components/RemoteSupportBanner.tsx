@@ -15,7 +15,7 @@ const RemoteSupportBanner = () => {
               Need Help Right Now? Connect Remotely
             </h2>
             <p className="text-lg mb-6 opacity-90">
-              Get instant support for software issues, cloud setup, or internet problems. 
+              Get instant support for software issues, cloud setup, or connectivity problems. 
               Our certified technicians can access your screen securely and solve issues in real-time.
             </p>
 
@@ -51,9 +51,9 @@ const RemoteSupportBanner = () => {
               </div>
             </div>
 
-            <a href="tel:+18883616963">
+            <a href="tel:+18889296191">
               <SimpleButton size="lg" variant="secondary" className="shadow-lg">
-                📞 Call (888) 361-6963 Now
+                📞 Call (888) 929-6191 Now
               </SimpleButton>
             </a>
           </div>

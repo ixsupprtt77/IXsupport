@@ -24,23 +24,23 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: Search,
-      title: "Describe Your Issue",
-      description: "Tell us what's wrong with your device or what support you need.",
+      title: "Enter Your ZIP Code",
+      description: "Tell us where you live to see which internet and TV providers are available in your area.",
     },
     {
       icon: Calendar,
-      title: "Get a Quote & Book",
-      description: "Receive an instant estimate and schedule your repair or remote session.",
+      title: "Compare Your Options",
+      description: "Review side-by-side comparisons of plans, speeds, channels, and pricing from multiple providers.",
     },
     {
       icon: Wrench,
-      title: "We Fix or Guide You",
-      description: "Drop off your device or connect remotely for live tech support.",
+      title: "Choose Best Deal",
+      description: "Select the provider and plan that fits your needs. We'll connect you directly with them.",
     },
     {
       icon: CheckCircle,
-      title: "Back to Working",
-      description: "Pick up your repaired device or resolve your issue on the spot.",
+      title: "Get Connected",
+      description: "Enjoy fast, reliable service from day one with ongoing 24/7 support.",
     },
   ];
 
@@ -67,7 +67,7 @@ const HowItWorks = () => {
             </span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            Simple, fast, and transparent from start to finish.
+            Get connected in 4 easy steps. Simple and hassle-free.
           </p>
         </div>
 

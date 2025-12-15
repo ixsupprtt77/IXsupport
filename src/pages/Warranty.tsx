@@ -143,7 +143,7 @@ const Warranty = () => {
                         <p className="text-blue-800 mb-3">Reach out via phone, email, or visit our location with your device and repair receipt.</p>
                         <div className="bg-blue-100 p-3 rounded-lg">
                           <p className="text-sm text-blue-700">
-                            📞 <strong>Phone:</strong> <a href="tel:+18883616963" className="hover:underline">(888) 361-6963</a> <br />
+                            📞 <strong>Phone:</strong> <a href="tel:+18889296191" className="hover:underline">(888) 929-6191</a> <br />
                             📧 <strong>Email:</strong> warranty@ixsupport.com
                           </p>
                         </div>

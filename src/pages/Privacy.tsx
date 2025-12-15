@@ -73,25 +73,31 @@ const Privacy = () => {
                 <section className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-blue-500">1. Information We Collect</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    We collect information necessary to provide repair and support services, including:
+                    We collect information necessary to assist you in finding and managing telecommunications services, including:
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="bg-blue-50 p-4 rounded-xl border border-blue-200">
                       <h4 className="font-bold text-blue-900 mb-2">📞 Contact Information</h4>
-                      <p className="text-blue-800 text-sm">Name, email, phone number, and address</p>
+                      <p className="text-blue-800 text-sm">Name, email, phone number, and service address for assistance purposes</p>
                     </div>
                     <div className="bg-green-50 p-4 rounded-xl border border-green-200">
-                      <h4 className="font-bold text-green-900 mb-2">📱 Device Information</h4>
-                      <p className="text-green-800 text-sm">Make, model, IMEI, serial number, and issue description</p>
+                      <h4 className="font-bold text-green-900 mb-2">🌐 Service Preferences</h4>
+                      <p className="text-green-800 text-sm">Your preferences for internet speed, TV packages, and phone services</p>
                     </div>
                     <div className="bg-purple-50 p-4 rounded-xl border border-purple-200">
-                      <h4 className="font-bold text-purple-900 mb-2">🔧 Service Data</h4>
-                      <p className="text-purple-800 text-sm">Repair history, diagnostic logs, and service notes</p>
+                      <h4 className="font-bold text-purple-900 mb-2">📍 Location Information</h4>
+                      <p className="text-purple-800 text-sm">ZIP code and service area to help identify available providers</p>
                     </div>
                     <div className="bg-orange-50 p-4 rounded-xl border border-orange-200">
-                      <h4 className="font-bold text-orange-900 mb-2">💳 Payment Information</h4>
-                      <p className="text-orange-800 text-sm">Processed securely through third-party payment processors</p>
+                      <h4 className="font-bold text-orange-900 mb-2">💳 Assistance Fee Information</h4>
+                      <p className="text-orange-800 text-sm">Payment info for our service fees, processed securely through third-party processors</p>
                     </div>
+                  </div>
+                  <div className="mt-6 bg-yellow-50 border-2 border-yellow-400 p-4 rounded-xl">
+                    <p className="text-yellow-900 font-semibold text-sm">
+                      🔒 <strong>We NEVER request provider passwords or account credentials.</strong> We only collect information 
+                      necessary to assist you with finding and understanding service options.
+                    </p>
                   </div>
                 </section>
 
@@ -99,11 +105,12 @@ const Privacy = () => {
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-green-500">2. How We Use Your Information</h2>
                   <div className="space-y-3">
                     {[
-                      "To provide, maintain, and improve our repair and support services",
-                      "To communicate about your service requests and provide customer support", 
-                      "To process payments and manage warranties",
-                      "To comply with legal obligations and resolve disputes",
-                      "To send service updates, security alerts, and promotional offers (with consent)"
+                      "To assist and guide you in finding suitable telecommunications services",
+                      "To facilitate communication between you and service providers", 
+                      "To process our service assistance fees securely",
+                      "To provide customer support and answer your questions",
+                      "To send service updates and relevant information (with your consent)",
+                      "To improve our assistance services and website experience"
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                         <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -112,6 +119,12 @@ const Privacy = () => {
                         <p className="text-gray-700">{item}</p>
                       </div>
                     ))}
+                  </div>
+                  <div className="mt-6 bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
+                    <p className="text-blue-800 text-sm">
+                      <strong>Data Usage:</strong> Your information is used solely to help facilitate your service search and 
+                      provide you with guidance. We do not use your data to make unauthorized account changes or access provider systems.
+                    </p>
                   </div>
                 </section>
 
@@ -144,7 +157,7 @@ const Privacy = () => {
                     <p className="text-red-800 leading-relaxed">
                       🔒 We implement industry-standard security measures including encryption, secure facilities, 
                       access controls, and regular security audits. However, no method of transmission over the 
-                      internet is 100% secure.
+                      network connection is 100% secure.
                     </p>
                   </div>
                 </section>
@@ -198,8 +211,8 @@ const Privacy = () => {
                     <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
                       <p className="text-sm"><strong>Email:</strong> privacy@ixsupport.com</p>
                     </div>
-                    <a href="tel:+18883616963" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
-                      <p className="text-sm"><strong>Phone:</strong> (888) 361-6963</p>
+                    <a href="tel:+18889296191" className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/30 transition-colors">
+                      <p className="text-sm"><strong>Phone:</strong> (888) 929-6191</p>
                     </a>
                   </div>
                 </div>

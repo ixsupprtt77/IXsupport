@@ -26,27 +26,33 @@ const TestimonialCarousel = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Small Business Owner",
-      content: "Fixed my laptop screen in under 2 hours. Professional, fast, and affordable. Highly recommend!",
+      name: "Rachel Martinez",
+      role: "Los Angeles, CA",
+      content: "Found a provider offering 500 Mbps for $30 less than I was paying! The comparison tool made it so easy to see all my options side-by-side.",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      role: "Remote Worker",
-      content: "The remote support team helped me set up cloud storage and fix my VPN issues in minutes. Lifesavers!",
+      name: "James Wilson",
+      role: "Dallas, TX",
+      content: "Switched to a better TV package with more channels and saved $45/month. Wish I'd found this comparison site years ago!",
       rating: 5,
     },
     {
-      name: "Emily Rodriguez",
-      role: "Student",
-      content: "Recovered all my thesis data from a broken hard drive. Can't thank them enough for the quick turnaround.",
+      name: "Patricia Lee",
+      role: "Chicago, IL",
+      content: "The team helped me understand all the providers in my area. Got a great bundle deal that actually fits my budget and needs.",
       rating: 5,
     },
     {
-      name: "David Park",
-      role: "Photographer",
-      content: "Battery replacement was seamless. My phone works like new again. Clear pricing and warranty too.",
+      name: "Robert Garcia",
+      role: "Phoenix, AZ",
+      content: "No pressure, just honest comparisons. Found fiber internet I didn't know was available in my neighborhood. Super helpful service!",
+      rating: 5,
+    },
+    {
+      name: "Linda Thompson",
+      role: "Seattle, WA",
+      content: "Finally ditched my overpriced provider! This site showed me I could get faster speeds for less money with a different company.",
       rating: 5,
     },
   ];

@@ -3,16 +3,14 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import StatsSection from "@/components/StatsSection";
 import ServicesSection from "@/components/ServicesSection";
-import SupportCategories from "@/components/SupportCategories";
-import ProcessShowcase from "@/components/ProcessShowcase";
 import HowItWorks from "@/components/HowItWorks";
-import RemoteSupportBanner from "@/components/RemoteSupportBanner";
-import SupportTeam from "@/components/SupportTeam";
-import PopularIssues from "@/components/PopularIssues";
-import WarrantyAccordion from "@/components/WarrantyAccordion";
-import TrackRepairForm from "@/components/TrackRepairForm";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import CookieBanner from "@/components/CookieBanner";
+import NetworkCoverage from "@/components/NetworkCoverage";
+import TechnologyShowcase from "@/components/TechnologyShowcase";
+import CustomerExperience from "@/components/CustomerExperience";
+import TrustIndicators from "@/components/TrustIndicators";
+import Disclaimer from "@/components/Disclaimer";
 
 const Index = () => {
   return (
@@ -20,16 +18,14 @@ const Index = () => {
       <Header />
       <Hero />
       <StatsSection />
+      <NetworkCoverage />
       <ServicesSection />
-      <SupportCategories />
-      <ProcessShowcase />
+      <TechnologyShowcase />
       <HowItWorks />
-      <RemoteSupportBanner />
-      <SupportTeam />
-      <PopularIssues />
-      <WarrantyAccordion />
-      <TrackRepairForm />
+      <CustomerExperience />
       <TestimonialCarousel />
+      <TrustIndicators />
+      <Disclaimer />
       <Footer />
       <CookieBanner />
     </div>

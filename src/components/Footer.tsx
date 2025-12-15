@@ -21,10 +21,20 @@ const Footer = () => {
 
     return () => observer.disconnect();
   }, []);
-  const quickLinks = [
+  
+  const companyLinks = [
+    { label: "About Us", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Features", href: "/features" },
+    { label: "Pricing", href: "/pricing" },
+    { label: "Contact", href: "/contact" },
+  ];
+
+  const resourceLinks = [
+    { label: "FAQ", href: "/faq" },
+    { label: "Disclaimer", href: "/disclaimer" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms of Service", href: "/terms" },
-    { label: "Warranty & Returns", href: "/warranty" },
     { label: "Cookie Policy", href: "/cookie-policy" },
     { label: "Refund Policy", href: "/refund-policy" },
   ];
@@ -60,34 +70,34 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div className={`transition-all duration-700 ${
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
           }`}>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
-              IX Support
+              Cosmo Broad
             </h3>
             <p className="text-gray-300 text-sm mb-6 leading-relaxed">
-              Fast repairs, secure remote help, and clear warranty — without manufacturer affiliation.
+              Cosmo Broad is an independent third-party service provider and is not affiliated with any cable, internet, or streaming service provider. All trademarks are the property of their respective owners.
             </p>
             <div className="space-y-3 text-sm text-gray-300">
               <div className="flex items-center gap-3 hover:text-blue-400 transition-colors duration-300 group">
                 <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Mail size={16} />
                 </div>
-                <span>support@ixsupport.com</span>
+                <span>support@cosmobroadband.com</span>
               </div>
-              <a href="tel:+18883616963" className="flex items-center gap-3 hover:text-green-400 transition-colors duration-300 group">
+              <a href="tel:+18889296191" className="flex items-center gap-3 hover:text-green-400 transition-colors duration-300 group">
                 <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone size={16} />
                 </div>
-                <span>(888) 361-6963</span>
+                <span>(888) 929-6191</span>
               </a>
               <div className="flex items-center gap-3 hover:text-purple-400 transition-colors duration-300 group">
                 <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                   <MapPin size={16} />
                 </div>
-                <span>Independent Service Provider</span>
+                <span>Serving All 50 States</span>
               </div>
             </div>
           </div>
@@ -95,9 +105,27 @@ const Footer = () => {
           <div className={`transition-all duration-700 delay-200 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
-            <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
+            <h4 className="font-semibold mb-4 text-lg">Company</h4>
             <ul className="space-y-3 text-sm">
-              {quickLinks.map((link, index) => (
+              {companyLinks.map((link, index) => (
+                <li key={link.label} className={`transition-all duration-300 delay-${index * 50}`}>
+                  <a
+                    href={link.href}
+                    className="text-gray-300 hover:text-blue-400 transition-all duration-300 hover:translate-x-2 inline-block group"
+                  >
+                    <span className="group-hover:text-blue-400">→</span> {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className={`transition-all duration-700 delay-300 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          }`}>
+            <h4 className="font-semibold mb-4 text-lg">Resources</h4>
+            <ul className="space-y-3 text-sm">
+              {resourceLinks.map((link, index) => (
                 <li key={link.label} className={`transition-all duration-300 delay-${index * 50}`}>
                   <a
                     href={link.href}
@@ -116,12 +144,12 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-lg">Services</h4>
             <ul className="space-y-3 text-sm text-gray-300">
               {[
-                "Smartphone & Tablet Repair",
-                "Laptop & Desktop Repair", 
-                "Screen & Battery Replacement",
-                "Data Recovery & Software",
-                "Remote Tech Support",
-                "Device Refurbishment"
+                "High-Speed Connectivity",
+                "Entertainment Packages", 
+                "Digital Phone Service",
+                "Bundle Packages",
+                "24/7 Technical Support",
+                "Professional Installation"
               ].map((service, index) => (
                 <li key={service} className={`transition-all duration-300 delay-${index * 100} hover:text-purple-400 hover:translate-x-1`}>
                   <span className="text-purple-400">•</span> {service}
@@ -132,16 +160,16 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8">
-          <div className={`bg-gradient-to-r from-yellow-500/20 to-orange-500/20 border border-yellow-500/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 transition-all duration-700 delay-600 ${
+          <div className={`bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 transition-all duration-700 delay-600 ${
             isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
           }`}>
-            <p className="text-xs sm:text-sm font-semibold text-center text-yellow-100 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
-              <div className="w-5 h-5 sm:w-6 sm:h-6 bg-yellow-500 rounded-full flex items-center justify-center animate-pulse flex-shrink-0">
-                ⚠️
+            <p className="text-xs sm:text-sm font-semibold text-center text-blue-100 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
+              <div className="w-5 h-5 sm:w-6 sm:h-6 bg-blue-500 rounded-full flex items-center justify-center animate-pulse flex-shrink-0">
+                ℹ️
               </div>
-              <span className="text-center">INDEPENDENCE NOTICE: We are an independent repair & support provider, not affiliated with, endorsed by, or sponsored by any device manufacturer or brand. All trademarks are property of their respective owners.</span>
-              <div className="hidden sm:flex w-5 h-5 sm:w-6 sm:h-6 bg-yellow-500 rounded-full items-center justify-center animate-pulse flex-shrink-0" style={{animationDelay: '1s'}}>
-                ⚠️
+              <span className="text-center">COMMITMENT TO SERVICE: We are dedicated to providing reliable, high-speed connectivity and exceptional customer service. Service availability may vary by location.</span>
+              <div className="hidden sm:flex w-5 h-5 sm:w-6 sm:h-6 bg-blue-500 rounded-full items-center justify-center animate-pulse flex-shrink-0" style={{animationDelay: '1s'}}>
+                ℹ️
               </div>
             </p>
           </div>
@@ -149,10 +177,10 @@ const Footer = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <p className="text-sm text-gray-400 mb-4">
-              © {new Date().getFullYear()} IX Support. All rights reserved.
+              © {new Date().getFullYear()} Cosmo Broad. All rights reserved.
             </p>
             <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-              Independent, reliable, and privacy-focused — <span className="text-blue-400 font-semibold">your tech, your way</span>.
+              Fast, reliable, and customer-focused — <span className="text-blue-400 font-semibold">connecting you to what matters</span>.
             </p>
           </div>
         </div>

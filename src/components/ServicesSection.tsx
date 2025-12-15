@@ -25,33 +25,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Smartphone,
-      title: "Smartphone & Tablet",
-      description: "Screen repairs, battery replacement, and diagnostics for all mobile devices.",
+      title: "High-Speed Connectivity",
+      description: "Lightning-fast fiber optic network with speeds up to 1 Gbps for seamless streaming.",
     },
     {
       icon: Laptop,
-      title: "Laptop & Desktop",
-      description: "Hardware upgrades, component replacement, and system optimization.",
+      title: "Premium Entertainment",
+      description: "Watch 200+ HD channels including sports, movies, news, and exclusive content.",
     },
     {
       icon: Cloud,
-      title: "Cloud Support",
-      description: "Cloud migration, backup solutions, and secure data synchronization services.",
+      title: "Digital Phone",
+      description: "Crystal-clear phone service with unlimited local and long-distance calling.",
     },
     {
       icon: HardDrive,
-      title: "Data & Software",
-      description: "Data recovery, OS installation, virus removal, and cloud migration.",
+      title: "Bundle Packages",
+      description: "Save more by combining connectivity, entertainment, and phone in one package.",
     },
     {
       icon: Headset,
-      title: "Remote Support",
-      description: "Live tech support via screen share for software, internet, and cloud issues.",
+      title: "24/7 Support",
+      description: "Expert technical support available around the clock for all your needs.",
     },
     {
       icon: Wrench,
-      title: "Refurbishment",
-      description: "Professional cleaning, testing, and restoration of pre-owned devices.",
+      title: "Professional Installation",
+      description: "Free professional installation with same-day or next-day service available.",
     },
   ];
 
@@ -72,9 +72,9 @@ const ServicesSection = () => {
             ⚡ All Services Available
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-            Complete Device Care &{' '}
+            Complete Connectivity &{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Support
+              Entertainment
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
