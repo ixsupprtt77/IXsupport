@@ -24,23 +24,23 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: Search,
-      title: "Enter Your ZIP Code",
-      description: "Tell us where you live to see which internet and TV providers are available in your area.",
+      title: "Share Your Location",
+      description: "Tell us where you live so we can help identify which telecommunications providers serve your area.",
     },
     {
       icon: Calendar,
-      title: "Compare Your Options",
-      description: "Review side-by-side comparisons of plans, speeds, channels, and pricing from multiple providers.",
+      title: "Review Guidance",
+      description: "We provide information comparing plans, speeds, channels, and pricing from available providers.",
     },
     {
       icon: Wrench,
-      title: "Choose Best Deal",
-      description: "Select the provider and plan that fits your needs. We'll connect you directly with them.",
+      title: "Get Assistance",
+      description: "Our team guides you through understanding options. You choose and contact the provider directly.",
     },
     {
       icon: CheckCircle,
-      title: "Get Connected",
-      description: "Enjoy fast, reliable service from day one with ongoing 24/7 support.",
+      title: "Follow-Up Support",
+      description: "We remain available to assist with questions about your service selection process.",
     },
   ];
 

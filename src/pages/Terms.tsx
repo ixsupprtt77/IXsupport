@@ -175,7 +175,7 @@ const Terms = () => {
                       <div className="text-4xl mb-4">⚠️</div>
                       <p className="text-yellow-900 font-bold text-lg mb-4">IMPORTANT INDEPENDENCE NOTICE</p>
                       <p className="text-yellow-800 leading-relaxed">
-                        Cosmo Broad is an independent third-party service provider. 
+                        Cosmo Broad is an independent third-party service provider, launched in 2025. 
                         We are <strong>NOT affiliated with, endorsed by, or sponsored by</strong> any cable, internet, 
                         television, or streaming service provider. We assist, help, guide, and facilitate customers in 
                         finding and managing their telecommunications services. Use of provider names is for descriptive 

@@ -48,10 +48,10 @@ const StatsSection = () => {
   }, []);
 
   const stats = [
-    { icon: Users, value: 500000, suffix: "+", label: "Customers Helped", color: "text-blue-600" },
-    { icon: TrendingUp, value: 100, suffix: "+", label: "Provider Partners", color: "text-green-600" },
-    { icon: Clock, value: 24, suffix: "/7", label: "Comparison Support", color: "text-purple-600" },
-    { icon: Award, value: 50, suffix: "+", label: "States Covered", color: "text-orange-600" },
+    { icon: Users, value: 2025, suffix: "", label: "Launched This Year", color: "text-blue-600" },
+    { icon: TrendingUp, value: 50, suffix: "+", label: "States We Serve", color: "text-green-600" },
+    { icon: Clock, value: 24, suffix: "/7", label: "Assistance Available", color: "text-purple-600" },
+    { icon: Award, value: 100, suffix: "%", label: "Independent Support", color: "text-orange-600" },
   ];
 
   return (
@@ -71,16 +71,16 @@ const StatsSection = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6 animate-pulse" style={{animationDuration: '3s'}}>
-            📊 Our Track Record
+            🚀 Startup Metrics
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 text-gray-900 px-4">
-            Trusted by{' '}
+            Our{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Thousands
+              Reach & Scope
             </span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            Numbers that speak for our excellence and commitment to quality service
+            Assistance platform launched in 2025 to help guide telecommunications service decisions
           </p>
         </div>
 

@@ -72,9 +72,9 @@ const Contact = () => {
                 <div className="text-3xl mb-3">ℹ️</div>
                 <p className="text-blue-900 font-bold text-lg mb-2">SERVICE DISCLOSURE</p>
                 <p className="text-blue-800 text-sm leading-relaxed">
-                  <strong>Cosmo Broad is an independent third-party service provider.</strong> We are not affiliated with, 
-                  endorsed by, or sponsored by any telecommunications provider. We assist customers by providing guidance, 
-                  support, and facilitation services. Service fees are separate from provider billing.
+                  <strong>Cosmo Broad is an independent third-party service provider, launched in 2025.</strong> We are not affiliated with, 
+                  endorsed by, or sponsored by any telecommunications provider. We charge separate service fees for assistance and guidance. 
+                  When you call (888) 929-6191, our greeting will identify us as an independent service assistance platform.
                 </p>
               </div>
             </div>

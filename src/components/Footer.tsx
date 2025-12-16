@@ -160,16 +160,16 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8">
-          <div className={`bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 transition-all duration-700 delay-600 ${
+          <div className={`bg-gradient-to-r from-yellow-500/20 to-orange-500/20 border border-yellow-500/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 transition-all duration-700 delay-600 ${
             isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
           }`}>
-            <p className="text-xs sm:text-sm font-semibold text-center text-blue-100 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
-              <div className="w-5 h-5 sm:w-6 sm:h-6 bg-blue-500 rounded-full flex items-center justify-center animate-pulse flex-shrink-0">
-                ℹ️
+            <p className="text-xs sm:text-sm font-semibold text-center text-yellow-100 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
+              <div className="w-5 h-5 sm:w-6 sm:h-6 bg-yellow-500 rounded-full flex items-center justify-center animate-pulse flex-shrink-0">
+                ⚠️
               </div>
-              <span className="text-center">COMMITMENT TO SERVICE: We are dedicated to providing reliable, high-speed connectivity and exceptional customer service. Service availability may vary by location.</span>
-              <div className="hidden sm:flex w-5 h-5 sm:w-6 sm:h-6 bg-blue-500 rounded-full items-center justify-center animate-pulse flex-shrink-0" style={{animationDelay: '1s'}}>
-                ℹ️
+              <span className="text-center">INDEPENDENT SERVICE: Cosmo Broad is an independent third-party service assistance startup, launched in 2025. We are not affiliated with or endorsed by any provider. All trademarks™ belong to their respective owners.</span>
+              <div className="hidden sm:flex w-5 h-5 sm:w-6 sm:h-6 bg-yellow-500 rounded-full items-center justify-center animate-pulse flex-shrink-0" style={{animationDelay: '1s'}}>
+                ⚠️
               </div>
             </p>
           </div>
@@ -180,7 +180,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Cosmo Broad. All rights reserved.
             </p>
             <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-              Fast, reliable, and customer-focused — <span className="text-blue-400 font-semibold">connecting you to what matters</span>.
+              Independent assistance for your telecommunications needs — <span className="text-blue-400 font-semibold">helping you find the right services</span>.
             </p>
           </div>
         </div>

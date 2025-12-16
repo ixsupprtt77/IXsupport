@@ -33,39 +33,39 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Are you an official cable or internet service provider?",
-      answer: "No. Cosmo Broad is an independent third-party service assistance provider. We are not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We assist customers by offering guidance, support, and facilitation services."
+      answer: "No. Cosmo Broad is an independent third-party assistance platform, launched in 2025. We are not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider."
     },
     {
-      question: "What services does Cosmo Broad provide?",
-      answer: "We provide independent assistance for services such as: New connection guidance, Plan and service information, Setup and activation assistance, Troubleshooting support, and Account-related service help. We do not directly provide internet, cable TV, or streaming subscriptions."
+      question: "Do you sell internet, cable, or streaming plans?",
+      answer: "No. We do not sell internet, cable, or streaming plans directly. We provide guidance and assistance services only. Our role is to help facilitate your search for appropriate telecommunications services."
     },
     {
       question: "Do you charge for your services?",
-      answer: "Yes. We charge a service fee for the assistance provided. Our charges are separate from any fees billed by your service provider and depend on the type and complexity of the service requested."
+      answer: "Yes. Our service fees are separate from provider charges. We charge an assistance fee for the guidance and support services we provide. Provider billing is handled independently by your chosen telecommunications company."
     },
     {
       question: "Will I still be billed by my service provider?",
-      answer: "Yes. Any billing, subscription fees, or service charges from your cable, internet, or streaming provider remain between you and the provider. Our service fees are independent and not included in provider billing."
-    },
-    {
-      question: "Can you resolve billing disputes with my provider?",
-      answer: "We can guide and assist you through the process, but we do not have control over provider billing systems. Final billing decisions are always handled directly by the service provider."
+      answer: "Yes. Provider billing remains unchanged. Any subscription fees or service charges from your cable, internet, or streaming provider are separate from our assistance fees and paid directly to the provider."
     },
     {
       question: "Do you need my account passwords or sensitive information?",
-      answer: "No. We do not require provider account passwords or sensitive personal information. Any assistance is provided through secure and compliant methods, keeping your privacy protected."
+      answer: "No. We never request provider account passwords or sensitive personal credentials. Any assistance is provided through secure, compliant methods that protect your privacy."
+    },
+    {
+      question: "Which providers do you support?",
+      answer: "We may reference multiple providers for guidance purposes only. All trademarks™, brand names®, and service marks belong to their respective owners. We have no affiliation with any provider."
     },
     {
       question: "Are your services refundable?",
-      answer: "Refund eligibility depends on the service requested and whether assistance has already been delivered. Please review our Refund Policy page for complete details before placing an order."
+      answer: "Yes. Refund requests may be submitted within 7 to 15 days, subject to the terms outlined in our Refund Policy. Eligibility depends on service type and whether assistance has already been delivered."
     },
     {
-      question: "Which service providers do you support?",
-      answer: "We offer assistance for multiple major cable, internet, and streaming services available in your area. All trademarks, brand names, and service marks belong to their respective owners and are used only for descriptive purposes."
+      question: "What happens after I use your assistance service?",
+      answer: "After receiving our guidance, you'll work directly with your chosen provider for all service installation, billing, and technical support matters. We facilitate the initial connection only."
     },
     {
       question: "How can I contact Cosmo Broad?",
-      answer: "You can reach us via phone at (888) 929-6191, email, or our contact form available on the Contact Us page. Our support team is available to help you with service-related assistance requests."
+      answer: "You can reach us via phone at (888) 929-6191 or through our Contact Us page. When you call, our greeting will identify us as an independent service assistance platform."
     }
   ];
 

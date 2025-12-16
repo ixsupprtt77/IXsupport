@@ -25,33 +25,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Smartphone,
-      title: "High-Speed Connectivity",
-      description: "Lightning-fast fiber optic network with speeds up to 1 Gbps for seamless streaming.",
+      title: "Service Guidance",
+      description: "We help explain internet and TV service options available in your area.",
     },
     {
       icon: Laptop,
-      title: "Premium Entertainment",
-      description: "Watch 200+ HD channels including sports, movies, news, and exclusive content.",
+      title: "Plan Assistance",
+      description: "Guidance on understanding different speed tiers, packages, and features.",
     },
     {
       icon: Cloud,
-      title: "Digital Phone",
-      description: "Crystal-clear phone service with unlimited local and long-distance calling.",
+      title: "Provider Information",
+      description: "We facilitate connections with multiple providers for descriptive reference only.",
     },
     {
       icon: HardDrive,
-      title: "Bundle Packages",
-      description: "Save more by combining connectivity, entertainment, and phone in one package.",
+      title: "Comparison Support",
+      description: "Assistance in understanding differences between service plans and pricing structures.",
     },
     {
       icon: Headset,
-      title: "24/7 Support",
-      description: "Expert technical support available around the clock for all your needs.",
+      title: "Customer Support",
+      description: "Our assistance team helps guide you through the telecommunications selection process.",
     },
     {
       icon: Wrench,
-      title: "Professional Installation",
-      description: "Free professional installation with same-day or next-day service available.",
+      title: "Setup Guidance",
+      description: "We provide information about typical setup processes with various providers.",
     },
   ];
 
@@ -69,16 +69,16 @@ const ServicesSection = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6 animate-bounce" style={{animationDuration: '3s'}}>
-            ⚡ All Services Available
+            🤝 Assistance Services
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-            Complete Connectivity &{' '}
+            How We Help &{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Entertainment
+              Guide You
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From hardware fixes to remote troubleshooting, we've got every tech need covered.
+            Independent third-party assistance to help you navigate telecommunications service options.
           </p>
         </div>
 

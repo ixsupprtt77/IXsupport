@@ -50,9 +50,9 @@ const Hero = () => {
               <div className={`inline-block transition-all duration-1000 ${
                 isLoaded ? 'opacity-100 translate-y-0 rotate-0' : 'opacity-0 translate-y-8 -rotate-12'
               }`}>
-                <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform text-sm sm:text-base">
+                <div className="bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform text-sm sm:text-base">
                   <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
-                  <span className="font-semibold">Trusted by 500,000+ Customers</span>
+                  <span className="font-semibold">⚠️ Independent Assistance Platform</span>
                 </div>
               </div>
 
@@ -62,13 +62,13 @@ const Hero = () => {
                   <div className={`transition-all duration-1000 delay-200 ${
                     isLoaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
                   }`}>
-                    <span className="text-gray-900">Compare & Save</span>
+                    <span className="text-gray-900">Get Assistance</span>
                   </div>
                   <div className={`transition-all duration-1000 delay-400 ${
                     isLoaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
                   }`}>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
-                      on Internet
+                      Finding Internet
                     </span>
                   </div>
                   <div className={`transition-all duration-1000 delay-600 ${
@@ -84,10 +84,10 @@ const Hero = () => {
                 isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}>
                 <div className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed font-medium space-y-1">
-                  <p>We're an independent comparison platform that helps you</p>
-                  <p>discover the best internet and TV deals from multiple providers,</p>
-                  <p>all in one place — <span className="relative inline-block">
-                    <span className="text-blue-600 font-semibold">completely free and unbiased</span>
+                  <p>We're an independent third-party assistance platform, launched in 2025,</p>
+                  <p>that helps guide you through finding telecommunications services.</p>
+                  <p>We charge <span className="relative inline-block">
+                    <span className="text-blue-600 font-semibold">separate service fees for our assistance</span>
                     <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 scale-x-0 animate-pulse" style={{animationDelay: '3s', animationFillMode: 'forwards'}} />
                   </span>.</p>
                 </div>
@@ -104,13 +104,13 @@ const Hero = () => {
                       className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 group w-full"
                     >
                       <span className="flex items-center justify-center gap-2 sm:gap-3">
-                        📞 Compare Plans Now
+                        📞 Get Assistance Now
                         <div className="w-2 h-2 bg-white rounded-full animate-bounce group-hover:animate-ping" />
                       </span>
                     </SimpleButton>
                   </a>
                   
-                  <a href="/pricing" className="w-full sm:w-auto">
+                  <a href="/contact" className="w-full sm:w-auto">
                     <SimpleButton 
                       size="lg" 
                       variant="outline"
@@ -118,10 +118,18 @@ const Hero = () => {
                     >
                       <span className="flex items-center justify-center gap-2 sm:gap-3">
                         <Zap size={20} className="group-hover:scale-110 transition-transform" />
-                        View Plans
+                        Request Help
                       </span>
                     </SimpleButton>
                   </a>
+                </div>
+                
+                {/* Disclosure Below CTA */}
+                <div className="mt-4 p-4 bg-yellow-50 border-2 border-yellow-300 rounded-xl">
+                  <p className="text-sm text-yellow-900 leading-relaxed">
+                    <strong>Important:</strong> Cosmo Broad is an independent third-party service assistance startup, launched in 2025. 
+                    We are NOT affiliated with, endorsed by, or sponsored by any cable, internet, or streaming provider. We charge separate service fees.
+                  </p>
                 </div>
               </div>
             </div>

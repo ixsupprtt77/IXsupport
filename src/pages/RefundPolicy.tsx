@@ -75,7 +75,7 @@ const RefundPolicy = () => {
                       <div className="text-4xl mb-4">⚠️</div>
                       <p className="text-yellow-900 font-bold text-lg mb-4">IMPORTANT SERVICE DISCLOSURE</p>
                       <p className="text-yellow-800 leading-relaxed">
-                        <strong>Cosmo Broad is an independent third-party service provider.</strong> We are not affiliated with, 
+                        <strong>Cosmo Broad is an independent third-party service provider, launched in 2025.</strong> We are not affiliated with, 
                         endorsed by, or sponsored by any cable, internet, television, or streaming service provider. Our services 
                         assist, help, guide, and facilitate customers in finding and managing telecommunications services. Service 
                         fees are separate from any provider billing. All trademarks® and service marks™ are property of their respective owners.
@@ -87,64 +87,67 @@ const RefundPolicy = () => {
                 <section className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-green-500">Our Refund Guarantee</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    At Cosmo Broad, we stand behind our assistance services with a comprehensive satisfaction guarantee. If you're not completely satisfied with our third-party service assistance, we'll make it right or provide a full refund.
+                    At Cosmo Broad, we stand behind our assistance services with a customer-focused satisfaction policy. Refund requests can be 
+                    submitted within 7 to 15 days of service purchase, depending on the type of assistance provided and whether services have been delivered.
                   </p>
                   <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
-                    <h3 className="text-lg font-bold text-green-900 mb-2">✅ Our Promise to You</h3>
+                    <h3 className="text-lg font-bold text-green-900 mb-2">⏰ Refund Window</h3>
                     <p className="text-green-800 mb-4">
-                      We're committed to providing exceptional service. If we can't solve your problem or you're unsatisfied with our work, you deserve your money back.
+                      <strong>7 to 15 Days:</strong> Refund eligibility depends on service type and delivery status. Review the full eligibility 
+                      criteria below before submitting a request.
                     </p>
                     <div className="bg-green-100 p-4 rounded-lg">
                       <p className="text-sm text-green-700 font-semibold">
-                        🎯 <strong>Bottom Line:</strong> If we can't fix it to your satisfaction, you don't pay for it.
+                        📋 Refunds are subject to review and approval based on the circumstances of your specific case.
                       </p>
                     </div>
                   </div>
                 </section>
 
                 <section className="mb-10">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-blue-500">Refund Eligibility</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-blue-500">Refund Eligibility Criteria</h2>
                   
                   <div className="space-y-6">
                     <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200">
-                      <h3 className="text-xl font-bold text-blue-900 mb-3">🔧 Device Repair Services</h3>
-                      <p className="text-blue-800 mb-3">Full refund available if:</p>
+                      <h3 className="text-xl font-bold text-blue-900 mb-3">📞 Service Assistance</h3>
+                      <p className="text-blue-800 mb-3">Refund may be considered if:</p>
                       <ul className="list-disc list-inside text-blue-700 space-y-1 mb-4">
-                        <li>We cannot diagnose or repair the issue</li>
-                        <li>The repair doesn't solve the original problem</li>
-                        <li>Your device is damaged during our repair process</li>
-                        <li>You're unsatisfied with the repair quality</li>
+                        <li>Assistance services were not delivered as described</li>
+                        <li>You were unable to connect with our support team</li>
+                        <li>Technical issues on our end prevented service delivery</li>
+                        <li>The guidance provided was factually incorrect</li>
                       </ul>
                       <div className="bg-blue-100 p-3 rounded-lg">
                         <p className="text-sm text-blue-700">
-                          <strong>Timeframe:</strong> 30 days from service completion
+                          <strong>Timeframe:</strong> 7-15 days from purchase date, subject to review
                         </p>
                       </div>
                     </div>
 
-                    <div className="bg-green-50 p-6 rounded-2xl border border-green-200">
-                      <h3 className="text-xl font-bold text-green-900 mb-3">💻 Remote Support Services</h3>
-                      <p className="text-green-800 mb-3">Full refund available if:</p>
-                      <ul className="list-disc list-inside text-green-700 space-y-1 mb-4">
-                        <li>We cannot connect to your device</li>
-                        <li>The issue remains unresolved after our session</li>
-                        <li>You're not satisfied with the support provided</li>
-                        <li>Service was interrupted due to our technical issues</li>
+                    <div className="bg-orange-50 p-6 rounded-2xl border border-orange-200">
+                      <h3 className="text-xl font-bold text-orange-900 mb-3">⚠️ Services Not Eligible for Refund</h3>
+                      <p className="text-orange-800 mb-3">Refunds cannot be provided when:</p>
+                      <ul className="list-disc list-inside text-orange-700 space-y-1 mb-4">
+                        <li>Assistance has already been fully delivered</li>
+                        <li>Provider decisions (approval, pricing) outside our control</li>
+                        <li>Changes in your personal circumstances or preferences</li>
+                        <li>Provider service quality or technical performance</li>
+                        <li>More than 15 days have passed since purchase</li>
                       </ul>
-                      <div className="bg-green-100 p-3 rounded-lg">
-                        <p className="text-sm text-green-700">
-                          <strong>Timeframe:</strong> 7 days from service completion
+                      <div className="bg-orange-100 p-3 rounded-lg">
+                        <p className="text-sm text-orange-700">
+                          <strong>Important:</strong> Once assistance is delivered, refund eligibility is limited
                         </p>
                       </div>
                     </div>
 
                     <div className="bg-purple-50 p-6 rounded-2xl border border-purple-200">
-                      <h3 className="text-xl font-bold text-purple-900 mb-3">🚨 Emergency Support</h3>
-                      <p className="text-purple-800 mb-3">Special guarantee for emergency services:</p>
+                      <h3 className="text-xl font-bold text-purple-900 mb-3">🔍 How to Request a Refund</h3>
+                      <p className="text-purple-800 mb-3">Submit your refund request:</p>
                       <ul className="list-disc list-inside text-purple-700 space-y-1 mb-4">
-                        <li>Response time exceeds our 2-hour guarantee</li>
-                        <li>Issue cannot be resolved within promised timeframe</li>
-                        <li>Emergency service quality doesn't meet standards</li>
+                        <li>Email: support@cosmo-broad.com with order details</li>
+                        <li>Phone: (888) 929-6191 during business hours</li>
+                        <li>Include: Order number, service date, and reason for request</li>
                       </ul>
                       <div className="bg-purple-100 p-3 rounded-lg">
                         <p className="text-sm text-purple-700">

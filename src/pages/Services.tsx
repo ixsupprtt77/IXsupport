@@ -6,40 +6,40 @@ const Services = () => {
   const mainServices = [
     {
       icon: Wifi,
-      title: "Internet Service Comparison",
-      description: "We help you compare internet providers offering speeds from 100 Mbps to 1 Gbps fiber. Find plans perfect for streaming, gaming, and remote work in your area.",
+      title: "Internet Service Guidance",
+      description: "We provide assistance comparing internet provider options in your area. Learn about speed tiers from various providers and understand which plans might suit your usage needs.",
       features: [
-        "Compare speeds from multiple providers",
-        "Find unlimited data plans",
-        "Check for equipment deals",
-        "Compare reliability ratings",
-        "View real customer reviews"
+        "Guidance on speed comparisons",
+        "Information about data plans",
+        "Equipment option explanations",
+        "Provider availability in your area",
+        "Help understanding service terms"
       ],
       gradient: "from-blue-500 to-blue-700"
     },
     {
       icon: Tv,
-      title: "TV & Streaming Options",
-      description: "Compare traditional cable, satellite, and streaming TV packages from various providers. We show you all available options with channel lineups and pricing.",
+      title: "TV & Entertainment Assistance",
+      description: "We help explain cable, satellite, and streaming options available from different providers. Our team provides information about channel packages and pricing structures.",
       features: [
-        "Compare 100+ to 300+ channel packages",
-        "Find premium channel add-ons",
-        "Check sports package availability",
-        "Compare DVR options",
-        "Discover streaming alternatives"
+        "Channel lineup comparisons",
+        "Premium package information",
+        "Sports package guidance",
+        "DVR option explanations",
+        "Streaming service alternatives"
       ],
       gradient: "from-purple-500 to-purple-700"
     },
     {
       icon: Phone,
-      title: "Phone Service Solutions",
-      description: "Explore digital phone options from providers offering VoIP and traditional landline services with unlimited calling features.",
+      title: "Phone Service Information",
+      description: "Get guidance about digital phone options from various providers. We help explain VoIP and landline service features available in your area.",
       features: [
-        "Compare unlimited calling plans",
-        "Check included features",
-        "Find voicemail options",
-        "International plan comparisons",
-        "Number portability information"
+        "Calling plan comparisons",
+        "Feature explanations",
+        "Voicemail option guidance",
+        "International plan information",
+        "Number portability help"
       ],
       gradient: "from-green-500 to-green-700"
     }
@@ -48,43 +48,43 @@ const Services = () => {
   const additionalServices = [
     {
       icon: Shield,
-      title: "Security & Protection",
-      description: "Comprehensive security suite with antivirus, firewall, and parental controls"
+      title: "Security Information",
+      description: "Guidance about security features offered by various providers including antivirus and parental controls"
     },
     {
       icon: Zap,
-      title: "Installation & Setup",
-      description: "Professional installation with same-day or next-day service available"
+      title: "Installation Guidance",
+      description: "Information about installation options and typical setup processes with different providers"
     },
     {
       icon: Users,
-      title: "Business Solutions",
-      description: "Dedicated business connectivity and phone services with SLA guarantees"
+      title: "Business Plan Guidance",
+      description: "Assistance understanding business-focused connectivity options from various providers"
     },
     {
       icon: Settings,
-      title: "Equipment Rental",
-      description: "Latest modems, routers, and set-top boxes with free upgrades"
+      title: "Equipment Information",
+      description: "Help understanding modem, router, and equipment options from different providers"
     }
   ];
 
   const bundles = [
     {
-      name: "Dual Service",
-      services: "Connectivity + Entertainment",
-      savings: "Save up to $20/month",
+      name: "Dual Service Guidance",
+      services: "Internet + TV Assistance",
+      savings: "Learn about bundle discounts",
       popular: false
     },
     {
-      name: "Complete Bundle",
-      services: "Connectivity + Entertainment + Phone",
-      savings: "Save up to $35/month",
+      name: "Complete Package Help",
+      services: "Internet + TV + Phone Guidance",
+      savings: "Understand triple-play savings",
       popular: true
     },
     {
-      name: "Connectivity + Phone",
-      services: "High-Speed Access + Digital Phone",
-      savings: "Save up to $15/month",
+      name: "Internet + Phone Help",
+      services: "Connectivity + Phone Guidance",
+      savings: "Compare dual-service options",
       popular: false
     }
   ];
@@ -99,10 +99,10 @@ const Services = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-              Our Services
+              Our Assistance Services
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8">
-              Comprehensive connectivity solutions for homes and businesses
+              Third-party guidance to help you navigate telecommunications service options
             </p>
           </div>
         </div>
@@ -112,9 +112,9 @@ const Services = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Core Services</h2>
+            <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Core Assistance Services</h2>
             <p className="text-center text-gray-600 mb-12 text-lg">
-              Everything you need to stay connected and entertained
+              We help guide you through understanding your connectivity options
             </p>
             <div className="space-y-12">
               {mainServices.map((service, index) => (
@@ -131,12 +131,12 @@ const Services = () => {
                       <p className="text-lg text-white/90 mb-6">{service.description}</p>
                       <a href="/pricing">
                         <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105">
-                          View Plans
+                          Request Assistance
                         </button>
                       </a>
                     </div>
                     <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6">
-                      <h4 className="text-xl font-bold text-white mb-4">Features Include:</h4>
+                      <h4 className="text-xl font-bold text-white mb-4">How We Assist:</h4>
                       <ul className="space-y-3">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start text-white">
@@ -158,9 +158,9 @@ const Services = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Bundle & Save</h2>
+            <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Bundle Package Guidance</h2>
             <p className="text-center text-gray-600 mb-12 text-lg">
-              Combine services for maximum savings
+              We help explain how bundling services with providers may offer savings
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               {bundles.map((bundle, index) => (
@@ -184,7 +184,7 @@ const Services = () => {
                     <div className="text-3xl font-bold text-green-600 mb-6">{bundle.savings}</div>
                     <a href="/pricing">
                       <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
-                        See Plans
+                        Get Guidance
                       </button>
                     </a>
                   </div>
@@ -199,9 +199,9 @@ const Services = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Additional Services</h2>
+            <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Additional Guidance Areas</h2>
             <p className="text-center text-gray-600 mb-12 text-lg">
-              Enhance your experience with premium add-ons
+              Extra assistance topics to help you understand all your options
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {additionalServices.map((service, index) => (
@@ -224,19 +224,19 @@ const Services = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
+          <h2 className="text-4xl font-bold mb-6">Ready for Assistance?</h2>
           <p className="text-xl mb-8 text-blue-100">
-            Choose the perfect plan for your home or business today
+            Get guidance understanding service options in your area today
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="/pricing">
               <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-lg">
-                View Pricing
+                Request Help
               </button>
             </a>
             <a href="/contact">
               <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 hover:scale-105">
-                Contact Sales
+                Contact Support
               </button>
             </a>
           </div>

@@ -13,14 +13,14 @@ const Disclaimer = () => {
               <div className="space-y-3 text-sm text-gray-600">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Important Disclosure</h3>
                 <p>
-                  <strong>Cosmo Broad is an independent lead generation and comparison service.</strong> We are not a 
-                  direct provider of internet, TV, cable, or phone services. Our platform connects consumers with 
-                  service providers based on availability in their area.
+                  <strong>Cosmo Broad is an independent third-party service assistance startup, launched in 2025.</strong> We are not 
+                  affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We do not sell 
+                  internet, TV, or cable plans directly. We provide guidance, assistance, and support services only.
                 </p>
                 <p>
-                  <strong>How We Operate:</strong> We partner with telecommunications providers nationwide to help you 
-                  compare available options. When you request information or connect with a provider through our platform, 
-                  we may receive compensation from that provider.
+                  <strong>How We Operate:</strong> We charge a separate service fee for our assistance services. These fees are 
+                  independent from any provider charges. We help guide and facilitate your service search process, but all 
+                  provider billing and services remain between you and your chosen telecommunications company.
                 </p>
                 <p>
                   <strong>Pricing & Availability:</strong> All pricing, speeds, channel counts, and availability information 
@@ -29,12 +29,12 @@ const Disclaimer = () => {
                   directly with your chosen provider before making a purchase decision.
                 </p>
                 <p>
-                  <strong>No Direct Service:</strong> Cosmo Broad does not install equipment, provide technical support 
-                  for services, or handle billing for internet, TV, or phone services. All service-related inquiries 
-                  should be directed to your chosen provider.
+                  <strong>No Direct Service:</strong> Cosmo Broad does not install equipment, provide direct technical support, 
+                  or handle billing for provider services. We never request provider account passwords or sensitive credentials. 
+                  Refund requests can be submitted within 7 to 15 days, subject to eligibility outlined in our Refund Policy.
                 </p>
                 <p className="text-xs text-gray-500 italic pt-2 border-t border-gray-200 mt-3">
-                  Last Updated: December 2025 | By using this website, you acknowledge and agree to these terms.
+                  Last Updated: December 2025 | All trademarks™ and service marks® belong to their respective owners.
                 </p>
               </div>
             </div>
