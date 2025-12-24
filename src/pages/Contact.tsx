@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SimpleButton from "../components/SimpleButton";
 import { Users, Award, Clock, Star, Shield, Zap, Phone, Mail } from "../components/SimpleIcons";
+import CallNowButton from "../components/CallNowButton";
 
 const Contact = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -62,7 +63,19 @@ const Contact = () => {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Need assistance finding the perfect internet, TV, or phone service? Our expert team is ready to 
               guide and assist you with third-party service support and information.
-            </p>
+              </p>
+              <div className="flex justify-center mt-6">
+                <CallNowButton />
+              </div>
+                          {/* Add CallNowButton to Service Disclaimer section */}
+                          <div className="flex justify-center mt-6">
+                            <CallNowButton />
+                          </div>
+                          {/* Add CallNowButton to Main Content Grid section */}
+                          <div className="flex justify-center mt-6">
+                            <CallNowButton />
+                          </div>
+                {/* Removed erroneous closing </p> tag */}
           </div>
 
           {/* Service Disclaimer */}

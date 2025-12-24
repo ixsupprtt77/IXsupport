@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Shield, Clock, CheckCircle, Award } from "../components/SimpleIcons";
+import CallNowButton from "../components/CallNowButton";
 
 const RefundPolicy = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -42,6 +43,9 @@ const RefundPolicy = () => {
               </p>
               <p className="text-sm text-gray-500 mt-4">Last updated: October 24, 2025</p>
             </div>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
 
             {/* Main Content */}
             <div className={`bg-white/80 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/20 transition-all duration-1000 delay-300 ${
@@ -65,8 +69,14 @@ const RefundPolicy = () => {
                   </div>
                 ))}
               </div>
+              <div className="flex justify-center mt-6">
+                <CallNowButton />
+              </div>
 
               <div className="prose prose-lg max-w-none">
+                <div className="flex justify-center mt-6">
+                  <CallNowButton />
+                </div>
                 
                 {/* Service Disclaimer */}
                 <section className="mb-10">

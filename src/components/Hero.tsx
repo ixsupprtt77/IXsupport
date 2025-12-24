@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import SimpleButton from "./SimpleButton";
+import CallNowButton from "./CallNowButton";
 import { Wifi, Tv, Phone, Zap, Shield, Star } from "./SimpleIcons";
 
 const Hero = () => {
@@ -98,18 +99,10 @@ const Hero = () => {
                 isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                  <a href="tel:+18889296191" className="w-full sm:w-auto">
-                    <SimpleButton 
-                      size="lg" 
-                      className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 group w-full"
-                    >
-                      <span className="flex items-center justify-center gap-2 sm:gap-3">
-                        📞 Get Assistance Now
-                        <div className="w-2 h-2 bg-white rounded-full animate-bounce group-hover:animate-ping" />
-                      </span>
-                    </SimpleButton>
-                  </a>
-                  
+                  <div className="w-full sm:w-auto">
+                    <CallNowButton className="text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 w-full" />
+                  </div>
+
                   <a href="/contact" className="w-full sm:w-auto">
                     <SimpleButton 
                       size="lg" 

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { CheckCircle, Wifi, Tv, Phone, Star, Zap } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 
 const Pricing = () => {
   const connectivityPlans = [
@@ -152,6 +153,9 @@ const Pricing = () => {
   return (
     <div className="min-h-screen">
       <Header />
+      <div className="flex justify-center mt-6">
+        <CallNowButton />
+      </div>
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-800 text-white pt-32 pb-20 overflow-hidden">

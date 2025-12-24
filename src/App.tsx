@@ -15,6 +15,7 @@ import DisclaimerPage from "./pages/DisclaimerPage";
 import NotFound from "./pages/NotFound";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import useScrollToTop from "./hooks/useScrollToTop";
+import CallNowButton from "./components/CallNowButton";
 
 const AppContent = () => {
   useScrollToTop();
@@ -38,6 +39,7 @@ const AppContent = () => {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <ScrollToTopButton />
+      <CallNowButton sticky />
     </>
   );
 };

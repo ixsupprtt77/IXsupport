@@ -1,6 +1,8 @@
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Wifi, Tv, Phone, Shield, Zap, Users, Settings, Award } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 
 const Services = () => {
   const mainServices = [
@@ -104,6 +106,9 @@ const Services = () => {
             <p className="text-xl md:text-2xl text-blue-100 mb-8">
               Third-party guidance to help you navigate telecommunications service options
             </p>
+            <div className="flex justify-center mt-8">
+              <CallNowButton />
+            </div>
           </div>
         </div>
       </section>
@@ -149,6 +154,9 @@ const Services = () => {
                   </div>
                 </div>
               ))}
+              <div className="flex justify-center mt-6">
+                <CallNowButton />
+              </div>
             </div>
           </div>
         </div>
@@ -190,6 +198,9 @@ const Services = () => {
                   </div>
                 </div>
               ))}
+              <div className="flex justify-center mt-6">
+                <CallNowButton />
+              </div>
             </div>
           </div>
         </div>
@@ -216,6 +227,9 @@ const Services = () => {
                   <p className="text-gray-600 text-sm">{service.description}</p>
                 </div>
               ))}
+              <div className="flex justify-center mt-6">
+                <CallNowButton />
+              </div>
             </div>
           </div>
         </div>
@@ -229,16 +243,7 @@ const Services = () => {
             Get guidance understanding service options in your area today
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="/pricing">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-lg">
-                Request Help
-              </button>
-            </a>
-            <a href="/contact">
-              <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 hover:scale-105">
-                Contact Support
-              </button>
-            </a>
+            <CallNowButton />
           </div>
         </div>
       </section>

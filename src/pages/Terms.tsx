@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { CheckCircle, Shield, Users, Award } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 
 const Terms = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -42,6 +43,9 @@ const Terms = () => {
               </p>
               <p className="text-sm text-gray-500 mt-4">Last updated: {new Date().toLocaleDateString()}</p>
             </div>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
 
             {/* Quick Overview */}
             <div className={`grid md:grid-cols-4 gap-6 mb-12 transition-all duration-1000 delay-300 ${
@@ -62,6 +66,9 @@ const Terms = () => {
                 </div>
               ))}
             </div>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
 
             {/* Main Content */}
             <div className={`bg-white/80 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/20 transition-all duration-1000 delay-500 ${
@@ -69,6 +76,9 @@ const Terms = () => {
             }`}>
 
               <div className="prose prose-lg max-w-none">
+                <div className="flex justify-center mt-6">
+                  <CallNowButton />
+                </div>
                 
                 <section className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-green-500">1. Service Scope</h2>

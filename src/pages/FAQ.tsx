@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { HelpCircle, Phone, Mail, ChevronDown } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 import { useState } from "react";
 
 const FAQItem = ({ question, answer, id }: { question: string; answer: string; id: string }) => {
@@ -88,6 +89,9 @@ const FAQ = () => {
             <p className="text-xl md:text-2xl text-blue-100">
               Find answers to common questions about our comparison service
             </p>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
           </div>
         </div>
       </section>
@@ -107,6 +111,9 @@ const FAQ = () => {
               </div>
             </div>
 
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
           </div>
         </div>
       </section>
@@ -115,6 +122,9 @@ const FAQ = () => {
       <section className="py-20 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
             <h2 className="text-4xl font-bold mb-6">Still Have Questions?</h2>
             <p className="text-xl mb-10 text-blue-100">
               Our team is here to help you find the perfect internet and TV solution

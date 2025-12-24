@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Shield, CheckCircle, Clock, Award } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 
 const Warranty = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -41,6 +42,9 @@ const Warranty = () => {
                 Comprehensive warranty coverage that protects your investment and gives you peace of mind.
               </p>
             </div>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
 
             {/* Warranty Highlights */}
             <div className={`grid md:grid-cols-4 gap-6 mb-12 transition-all duration-1000 delay-300 ${
@@ -61,6 +65,9 @@ const Warranty = () => {
                 </div>
               ))}
             </div>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
 
             {/* Main Content */}
             <div className={`bg-white/80 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/20 transition-all duration-1000 delay-500 ${
@@ -68,6 +75,9 @@ const Warranty = () => {
             }`}>
               
               <div className="prose prose-lg max-w-none">
+                <div className="flex justify-center mt-6">
+                  <CallNowButton />
+                </div>
                 
                 <section className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-purple-500">90-Day Limited Warranty</h2>

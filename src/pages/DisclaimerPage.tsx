@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { AlertCircle, Shield, CheckCircle, Info } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 
 const DisclaimerPage = () => {
   return (
@@ -22,6 +23,9 @@ const DisclaimerPage = () => {
             <p className="text-xl md:text-2xl text-blue-100">
               Please read this important information about our services
             </p>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
           </div>
         </div>
       </section>
@@ -30,6 +34,9 @@ const DisclaimerPage = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
 
             {/* Independent Service Notice */}
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 mb-12 border-2 border-blue-200">

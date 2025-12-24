@@ -1,6 +1,8 @@
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Users, Award, Zap, Shield, Target, Heart } from "@/components/SimpleIcons";
+import CallNowButton from "@/components/CallNowButton";
 
 const About = () => {
   const values = [
@@ -59,6 +61,10 @@ const About = () => {
             <p className="text-xl md:text-2xl text-blue-100 mb-8">
               An independent service assistance startup helping you navigate telecommunications choices
             </p>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
+              {/* Removed erroneous closing </p> tag */}
           </div>
         </div>
       </section>
@@ -75,6 +81,9 @@ const About = () => {
               endorsed by, or sponsored by any cable, internet, or streaming service provider. We do not sell telecommunications services directly. 
               We charge separate service fees for the assistance and guidance we provide.
             </p>
+            <div className="flex justify-center mt-6">
+              <CallNowButton />
+            </div>
           </div>
         </div>
       </section>
@@ -91,6 +100,9 @@ const About = () => {
                   <p className="text-gray-700 leading-relaxed">{item.description}</p>
                 </div>
               ))}
+            </div>
+            <div className="flex justify-center mt-8">
+              <CallNowButton />
             </div>
           </div>
         </div>
@@ -117,6 +129,9 @@ const About = () => {
                   <p className="text-gray-600">{value.description}</p>
                 </div>
               ))}
+            </div>
+            <div className="flex justify-center mt-8">
+              <CallNowButton />
             </div>
           </div>
         </div>
@@ -151,6 +166,9 @@ const About = () => {
                   installations, and billing are handled directly between you and your chosen provider.
                 </p>
               </div>
+              <div className="flex justify-center mt-8">
+                <CallNowButton />
+              </div>
             </div>
           </div>
         </div>
@@ -184,6 +202,9 @@ const About = () => {
                 </li>
               </ul>
             </div>
+            <div className="flex justify-center mt-8">
+              <CallNowButton />
+            </div>
           </div>
         </div>
       </section>
@@ -196,16 +217,7 @@ const About = () => {
             Our team is ready to help guide you through finding the right telecommunications services for your needs
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+18889296191">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-lg">
-                📞 Call (888) 929-6191
-              </button>
-            </a>
-            <a href="/contact">
-              <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 hover:scale-105">
-                Get Assistance
-              </button>
-            </a>
+            <CallNowButton />
           </div>
           <p className="text-sm text-blue-200 mt-6">
             When you call, our greeting identifies us as an independent service assistance platform
